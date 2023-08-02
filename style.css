@@ -1,0 +1,62 @@
+h1{
+    color: black;
+}
+#division1{
+    border: 10px dotted black;
+    background-image: url(image/google.png);
+    background-color: aqua;
+    background-size: 200px;
+    padding: 20px;
+    background-clip: border-box;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    
+}
+#division2{
+    border: 10px dotted blue;
+    background-image: url(image/google.png);
+    background-size: 200px;
+    background-color: saddlebrown;
+    padding: 20px;
+    background-clip: padding-box;
+    background-repeat: no-repeat;
+    background-origin: padding-box;
+    
+}
+#division3{
+    border: 10px dotted red;
+    background-image: url(image/google.png);
+    background-size: 200px;
+    background-color: chartreuse;
+    padding: 20px;
+    background-clip: content-box;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    
+}
+
+
+#division4{
+    border: 10px dotted red;
+    background-image: url(image/google.png), url(image1/facebook.png),url(image2/twiter.png);
+    background-size: 200px;
+    background-color: navajowhite;
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-origin: padding-box;
+    background-position: 0px 40px, 500px 0, 1000px 50px; 
+}
+
+#division5 {
+    margin: 200px;
+    height: 400px;
+    width: 500px;
+    border: 3px solid red;  
+}
+
+#division5 p{
+    border: 2px solid black;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 100px;
+}
